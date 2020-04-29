@@ -20,7 +20,7 @@ app.delete('/clear', (request, response) => {
 
 app.post('/jump', (request, response) => {
     i = request.body.number;
-    repsonse.send({number: i})
+    response.send({number: i})
 })
 
 app.listen(port, () => {
